@@ -78,7 +78,7 @@ This script will:
 
     Configure the build using CMake, enabling GPU support. It attempts to automatically find CUDA, cuDNN, BLAS, and gflags.
 
-    Build the FAISS library using make.
+    Build the FAISS library using make. Note that this build process can take a significant amount of time depending on your system's hardware.
 
     Install the Python bindings into your active Python environment using pip.
 
